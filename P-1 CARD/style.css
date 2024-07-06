@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(150, 149, 149);
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Continer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 370px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid#fff;
+}
+.Continer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 36%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius:24px  24px 0px 0px;
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border:3px solid blue;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 10px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.job{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.media{
+    display: flex;
+    align-items: center;
+}
+.link{
+    height: 35px;
+    width: 35px;
+    display:flex ;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    margin: 0 8px;
+    margin-bottom:15px ;
+}
+#facebook{
+    background-color: rgb(20, 14, 201) ;
+}
+#twitter{
+    background-color: rgb(1, 110, 227);
+}
+#instagram{
+    background-color:#e04811;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 110px;
+    height: 35px;
+   margin: 0 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    font-weight: 500;
+    margin-top: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #0e4bf1;
+
+}
+.like-sectoin{
+     display: flex;
+     align-items: center;
+     margin-top:25px;
+}
+.like{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   border-right:2px solid #e7e7e7;
+   padding: 0 20px;
+   color: black;
+}
+.iike i{
+    font-size: 18px;
+    margin-right: 6px;
+}
+.like:last-child {
+    border-right:none ;
+}
+.like:hover{
+    color: red;
+    transition: all 0.3s ease-in;
+}
+
