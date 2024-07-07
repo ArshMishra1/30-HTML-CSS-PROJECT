@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html , body {
+    display: flex;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #1ecbe1;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    
+} 
+.main{
+    width: 100%;
+    height: 22%;
+    background-color: #0e1318B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.id{
+    margin-top: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* height: 100%;
+    width: 100%;  */
+    align-items: center;
+}
+.DP{
+    height: 34px;
+    width: 70%;
+    margin-top: 20px ;
+    border: 1px solid rgb(136, 134, 134);
+}
+.id a{
+    margin-right: 160px;
+    text-decoration: none;
+    color: #006edbb3;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    height: 40px;
+    width: 80%;
+    font-size: 22px;
+    font-weight: 600;
+    background-color:#0e1318B3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.last p {
+    color: #0e1318B3;
+    font-size: 18px;
+    font-weight: 500;
+}
+.last a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+#box1{
+    position: relative;
+    right: 157px;
+    top: 54px;
+    background-color:#0e1318B3;
+    font-size: 33px;
+    border: 1px solid  rgb(136, 134, 134);
+    border-right: none;
+    color: #fff;
+}
+#box2{
+    position: relative;
+    right: 157px;
+    top: 54px;
+    background-color:#0e1318B3;
+    font-size: 33px;
+    border: 1px solid  rgb(136, 134, 134);
+    border-right: none;
+    color: #fff;
+}
+button:hover{
+    background-color: #4b4c4e54;
+    transition: all  0.3s ease-in ;
+    color: black;
+    
+}
+.id:hover{
+    background-color: #4b4c4e54;
+    transition: all  0.3s ease-in ;
+    color: black;
+    border: none;
+} 
