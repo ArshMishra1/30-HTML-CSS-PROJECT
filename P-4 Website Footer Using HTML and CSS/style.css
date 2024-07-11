@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    width: 100%;
+    background-color: #EEECEB;
+}
+footer{
+    position: fixed;
+    background-color:#140B5C;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+
+}
+footer .container{
+    
+    max-width: 1250px;
+    margin: auto;
+     padding: 30px  40px 40px 40px; 
+   
+}
+footer .container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+}
+.container .logo .left-logo{
+    font-size: 30px;
+    color: #fff
+}
+.container .logo .right-logo{ 
+    display: flex;
+    gap: 20px;
+}
+.container .logo .right-logo a{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* margin: 0 8px; */
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    line-height: 42px;
+}
+#Facebook{
+    background-color: #4267B2;
+}#twiter{
+    background-color: #1DA1F2;
+}
+#instagram{
+    background-color: #E1306C;
+}
+#link{
+    background-color: #0077B5;
+}
+#YT{
+    background-color: #FF0000;
+}
+footer .container .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container .link-boxes .box li{
+    list-style: none;
+    
+}
+.container .link-boxes .box li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 200;
+}
+.link-name{
+    color: white;
+    font-size: 22px;
+
+}
+hr{
+    margin-top: 15px;
+    width: 100%;
+}
+.btn{
+    height: 32px;
+    width: 280px;
+    border-radius: 5px;
+}
+#btn1{
+    border: 1px solid white;
+    background-color:rgba(255, 255, 255, 0);
+    margin-bottom: 8px;
+}
+#btn2{
+    border: 1px solid white;
+    font-size: 17px;
+}
+.Copy{
+ position: relative;
+ bottom: 0;
+ margin-top:10px;
+}
+.Copy ul{
+    background-color: #2e057ba8;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+.Copy ul li {
+    list-style: none;
+}
+.Copy ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
